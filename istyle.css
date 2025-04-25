@@ -2,62 +2,61 @@
 
 body {
   margin: 0;
-  padding: 0;
-  background-color: hsl(212, 45%, 89%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  box-sizing: border-box;
+    padding: 0;
+    background-color:hsl(212, 45%, 89%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.outfit-txt {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
+
 
 .htr {
-  background-color: white;
-  box-shadow: -4px 6px 15px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
-  width: 90%;
-  max-width: 400px;
-  padding: 20px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+ background-color: white;
+    box-shadow: -4px 6px 15px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+    width: 90%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .htr img {
-  margin-top: 20px;
-  border-radius: 16px;
-  width: 100%;
+    margin-top: 20px;
+    border-radius: 16px;
+    width: 100%;
+    overflow: auto;
+}
 }
 
 .txt {
-  width: 80%;
-  margin: 15px 0;
+     align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .txt h1 {
-  font-size: 28px;
-  color: hsl(218, 44%, 22%);
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+
+    font-size: 28px;
+    color: hsl(218, 44%, 22%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:normal;
 }
 
 .txt p {
-  font-size: 20px;
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  color: hsla(216, 15%, 48%, 0.5);
+     font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:normal;
+    color:hsl(216, 15%, 48%,0.5)
 }
