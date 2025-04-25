@@ -6,7 +6,7 @@
   font-style: normal;
 }
  @media (min-width: 1440px) {
-      .h1 {
+      .htr {
         max-width: 375px; /* Adjust max width for desktop */
         padding: 20px; /* Increase padding for desktop */
       }
