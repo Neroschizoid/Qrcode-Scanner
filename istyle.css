@@ -59,8 +59,8 @@ body{
 .h1 img{
     margin-top: 20px;
     border-radius: 16px;
-    width: 90%;
-    max-height: 80%;
+    width: 100%;
+
     overflow: auto;
 }
 .h1{
@@ -71,7 +71,6 @@ body{
     text-align: center;
     border-radius: 16px;
     width: 90%;
-    max-height: 80%;
     overflow: auto;
     display: flex;
     justify-content: center;
