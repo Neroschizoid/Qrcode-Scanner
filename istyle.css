@@ -10,11 +10,12 @@ body {
     height: 100vh;
 }
 
-    @media (min-width: 1440px) {
-      .htr {
-        max-width: 375px; /* Adjust max width for desktop */
-        padding: 20px; /* Increase padding for desktop */
-      }
+@media (min-width: 768px) {
+  .h1 {
+    max-width: 400px;
+    padding: 30px;
+  }
+}
 
 .htr {
  background-color: white;
