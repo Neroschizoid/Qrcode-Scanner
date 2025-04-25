@@ -5,7 +5,17 @@
   font-weight: 200;
   font-style: normal;
 }
-
+ @media (min-width: 1440px) {
+      .h1 {
+        max-width: 375px; /* Adjust max width for desktop */
+        padding: 20px; /* Increase padding for desktop */
+      }
+    }
+    @media (min-width: 375px) {
+      .h1 {
+        max-width: 375px;
+      }
+    }
 body{
     margin: 0;
     padding: 0;
